@@ -53,18 +53,29 @@ form > label  {
     width: 35%;
 }
 [name="number"] {
-    width: 37%;
+    width: 36%;
 }
 .label-section {
-    margin: auto 8px auto 0;
+    margin: auto 16px auto 0;
     width: 45%;
     text-align: right;
 }
 .line {
     line-height: 24px;
 }
+.inline {
+    display: grid;
+}
+.block,
+[for^="choose"] {
+    justify-self: start;
+}
 [name ="dropdown"],
 [name ="like"]
  {
     border: 1px solid #c0c0c0;
+}
+.row:nth-child(5) .label-section
+.row:nth-child(7) .label-section{
+    margin: 0 16px 0 0;
 }
