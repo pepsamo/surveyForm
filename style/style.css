@@ -1,0 +1,68 @@
+body {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    background-color: #A9D7D1;
+    text-align: center;
+}
+#title {
+    font-weight: bold;
+    padding: 24px;
+    font-size: 2em;
+}
+#submit {
+    background-color: #59ACE0;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.form-section {
+    display: flex;
+    flex-flow: column;
+}
+#survey-form {
+    display: flex;
+    flex-direction: column;
+}
+.center {
+    width: 60%;
+    margin: 0 auto;
+}
+.form-section {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2.5em;
+}
+#dropdown,
+#like {
+    padding: 8px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+#description,
+form > label  {
+    margin-bottom: 24px;
+}
+#number-label {
+    padding: 8px 0;
+}
+[name="name"],
+[name="email"],
+[name="number"] {
+    width: 35%;
+}
+[name="number"] {
+    width: 37%;
+}
+.label-section {
+    margin-right: 8px;
+    width: 45%;
+    text-align: right;
+}
+.line {
+    line-height: 24px;
+}
+[name ="dropdown"],
+[name ="like"]
+ {
+    border: 1px solid #c0c0c0;
+}
