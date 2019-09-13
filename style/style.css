@@ -52,6 +52,12 @@ form > label  {
 [name="number"] {
     width: 35%;
 }
+[name="name"],
+[name="email"],
+[name="number"] {
+    border: none;
+    border-bottom: 2px solid aqua;
+}
 [name="number"] {
     width: 36%;
 }
