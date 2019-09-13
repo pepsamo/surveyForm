@@ -75,7 +75,10 @@ form > label  {
  {
     border: 1px solid #c0c0c0;
 }
-.row:nth-child(5) .label-section
-.row:nth-child(7) .label-section{
+.margin-right{
     margin: 0 16px 0 0;
+}
+#submit {
+    min-width: 20%;
+    margin: auto;
 }
