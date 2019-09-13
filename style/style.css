@@ -1,5 +1,5 @@
 body {
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: 'Raleway', Helvetica, sans-serif;
     background-color: #A9D7D1;
     text-align: center;
 }
@@ -52,7 +52,6 @@ form > label  {
 [name="number"] {
     width: 35%;
 }
-
 [name="number"] {
     width: 36%;
 }
