@@ -1,15 +1,19 @@
 body {
     font-family: 'Raleway', Helvetica, sans-serif;
-    background-color: orange;
+    background-image:linear-gradient(to bottom left, rgba(243, 156, 18,1.0),
+    rgb(255, 177, 67),
+    rgba(255, 194, 108, 1));
     text-align: center;
 }
 #title {
     font-weight: bold;
     padding: 24px;
     font-size: 3rem;
+    color: rgb(255, 255, 255);
 }
 #submit {
-    background-color: orange;
+    background-image:linear-gradient(to right, rgba(243, 156, 18,1.0),
+    rgb(255, 177, 67));
     color: rgba(255, 255, 255, 1);
     border: none;
     padding: 10px;
@@ -19,8 +23,8 @@ body {
     cursor: pointer;
 }
 #reset {
-    color: orange;
-    border: 1px solid orange;
+    color: rgba(243, 156, 18,1.0);
+    border: 1px solid rgba(243, 156, 18,1.0);
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -31,6 +35,9 @@ body {
 .form-section {
     display: flex;
     flex-flow: column;
+    background-color: rgba(255, 255, 255,1);
+    border-radius: 5px;
+    padding: 2.5em;
 }
 #survey-form {
     display: grid;
@@ -41,11 +48,6 @@ body {
 .center {
     width: 60%;
     margin: 0 auto;
-}
-.form-section {
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 2.5em;
 }
 #dropdown,
 #like {
@@ -71,12 +73,7 @@ form {
 [name="number"] {
     width: 35%;
 }
-[name="name"],
-[name="email"],
-[name="number"] {
-    border: none;
-    border-bottom: 2px solid aqua;
-}
+
 [name="number"] {
     width: 36%;
 }
