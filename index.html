@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Survey Form</title>
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
@@ -21,22 +21,19 @@
                 <p class="label-section">
                     Name:
                 </p>
-                <input type="text" id="name-label" name="name" placeholder="Enter your name"
-                required>
+                <input type="text" id="name-label" name="name" placeholder="Enter your name" required>
             </label>
             <label for="email-label" class="row">
                 <p class="label-section">
-                    Email: 
+                    Email:
                 </p>
-                <input type="email" id="email-label" name="email" placeholder="Enter your email"
-                required>
+                <input type="email" id="email-label" name="email" placeholder="Enter your email" required>
             </label>
             <label for="number-label" class="row">
                 <p class="label-section">
-                    Age: 
+                    Age:
                 </p>
-                <input type="number" id="number-label" name="number" placeholder="Age" min="1"
-                    max="90" required>
+                <input type="number" id="number-label" name="number" placeholder="Age" min="1" max="90" required>
             </label>
             <label for="dropdown" class="row">
                 <p class="label-section">
@@ -53,12 +50,15 @@
                 </select>
             </label>
             <label class="row">
-                <p class="label-section line margin-right">How likely is that you would recommend freeCodeCamp to a friend?</p>
+                <p class="label-section line margin-right">How likely is that you would recommend freeCodeCamp to a
+                    friend?</p>
                 <div class="inline">
-                        <label class="block" for="definitely"><input type="radio" name="decision" id="definitely"
+                    <label class="block" for="definitely"><input type="radio" name="decision" id="definitely"
                             value="definitely">Definitely</label>
-                    <label class="block" for="maybe"><input type="radio" name="decision" id="maybe" value="maybe">Maybe</label>
-                    <label class="block" for="notSure"><input type="radio" name="decision" id="notSure" value="notSure">Not Sure</label>    
+                    <label class="block" for="maybe"><input type="radio" name="decision" id="maybe"
+                            value="maybe">Maybe</label>
+                    <label class="block" for="notSure"><input type="radio" name="decision" id="notSure"
+                            value="notSure">Not Sure</label>
                 </div>
             </label>
             <label for="like" class="row">
@@ -74,8 +74,8 @@
                 </select>
             </label>
             <label class="row">
-               <p class="label-section line margin-right">Things that should be improved in the future
-                (Check all that apply):</p> 
+                <p class="label-section line margin-right">Things that should be improved in the future
+                    (Check all that apply):</p>
                 <div class="inline">
                     <label for="choose1">
                         <input type="checkbox" name="choose1" id="choose1" value="feprojects"> Front-end Projects
@@ -109,21 +109,22 @@
                         <input type="checkbox" name="choose9" id="choose9" value="forum"> Forum
                     </label>
                     <label for="choose10">
-                        <input type="checkbox" name="choose10" id="choose10" value="additionalCourses"> Additional Courses
+                        <input type="checkbox" name="choose10" id="choose10" value="additionalCourses"> Additional
+                        Courses
                     </label>
-    
+
                 </div>
             </label>
             <label for="comments" class="row">
-                   <p class="label-section margin-right">
-                       Any Comments or Suggestions?
-                   </p>
+                <p class="label-section margin-right">
+                    Any Comments or Suggestions?
+                </p>
                 <textarea name="comments" id="comments" cols="30" rows="3"
-                placeholder="Enter your comment here..."></textarea>
+                    placeholder="Enter your comment here..."></textarea>
             </label>
             <br>
             <div class="row center">
-                    <input type="reset" value="Reset" id="reset">
+                <input type="reset" value="Reset" id="reset">
                 <input type="submit" value="Submit" id="submit">
             </div>
         </form>
