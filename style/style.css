@@ -26,6 +26,10 @@ body {
     cursor: pointer;
     outline-color: transparent;
 }
+#submit input {
+    background: none;
+    font
+}
 
 #reset {
     padding: 10px;
@@ -111,4 +115,7 @@ form > label  {
 }
 input {
     background-color: rgb(249, 249, 249);
+}
+.font-button {
+    font-size: inherit;
 }
