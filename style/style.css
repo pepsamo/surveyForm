@@ -1,6 +1,6 @@
 body {
     font-family: 'Raleway', Helvetica, sans-serif;
-    background-color: #A9D7D1;
+    background-color: orange;
     text-align: center;
 }
 #title {
@@ -9,11 +9,24 @@ body {
     font-size: 2em;
 }
 #submit {
-    background-color: #59ACE0;
-    color: #fff;
+    background-color: orange;
+    color: rgba(255, 255, 255, 1);
     border: none;
     padding: 10px;
     border-radius: 5px;
+    min-width: 20%;
+    margin: auto;
+    cursor: pointer;
+}
+#reset {
+    color: rgba(0, 0, 0, 1);
+    border: 1px solid orange;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 20%;
+    margin: auto;
+    cursor: pointer;
 }
 .form-section {
     display: flex;
@@ -67,7 +80,7 @@ form > label  {
     text-align: right;
 }
 .line {
-    line-height: 24px;
+    line-height: 25.88px;
 }
 .inline {
     display: grid;
@@ -83,8 +96,4 @@ form > label  {
 }
 .margin-right{
     margin: 0 16px 0 0;
-}
-#submit {
-    min-width: 20%;
-    margin: auto;
 }
