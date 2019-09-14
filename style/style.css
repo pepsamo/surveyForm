@@ -1,5 +1,5 @@
 body {
-    font-family: 'Raleway', Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
     background-image:linear-gradient(to bottom left, rgba(243, 156, 18,1.0),
     rgb(255, 177, 67),
     rgba(255, 194, 108, 1));
@@ -41,6 +41,7 @@ body {
 }
 #survey-form {
     display: grid;
+    font-family: 'Playfair Display', serif;
 }
 .row {
     display: flex;
