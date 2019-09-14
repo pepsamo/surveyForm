@@ -6,7 +6,7 @@ body {
 #title {
     font-weight: bold;
     padding: 24px;
-    font-size: 2em;
+    font-size: 3rem;
 }
 #submit {
     background-color: orange;
@@ -19,7 +19,7 @@ body {
     cursor: pointer;
 }
 #reset {
-    color: rgba(0, 0, 0, 1);
+    color: orange;
     border: 1px solid orange;
     background-color: #fff;
     padding: 10px;
@@ -57,6 +57,12 @@ body {
 form > label  {
     margin-bottom: 24px;
 }
+#description{
+    font-size: 2.25rem;
+}
+form {
+    font-size: 1.2rem;
+}
 #number-label {
     padding: 8px 0;
 }
@@ -76,11 +82,11 @@ form > label  {
 }
 .label-section {
     margin: auto 16px auto 0;
-    width: 45%;
+    width: 55%;
     text-align: right;
 }
 .line {
-    line-height: 25.88px;
+    line-height: 31.06px;
 }
 .inline {
     display: grid;
