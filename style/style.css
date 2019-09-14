@@ -8,7 +8,7 @@ body {
 #title {
     font-weight: bold;
     padding: 24px;
-    font-size: 3rem;
+    font-size: 2.441rem;
     color: rgb(255, 255, 255);
 }
 #submit {
@@ -24,6 +24,7 @@ body {
     min-width: 20%;
     margin: auto;
     cursor: pointer;
+    outline-color: transparent;
 }
 
 #reset {
@@ -51,6 +52,7 @@ body {
 }
 #survey-form {
     display: grid;
+    font-size: 1.75rem;
 }
 .row {
     display: flex;
@@ -70,10 +72,7 @@ form > label  {
     margin-bottom: 24px;
 }
 #description{
-    font-size: 2.25rem;
-}
-form {
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 #number-label {
     padding: 8px 0;
