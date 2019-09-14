@@ -12,11 +12,14 @@ body {
     color: rgb(255, 255, 255);
 }
 #submit {
+    padding: 10px;
+}
+#submit,
+#submit input {
     background-image:linear-gradient(to top, rgba(243, 156, 18,1.0),
     rgb(255, 177, 67));
     color: rgba(255, 255, 255, 1);
     border: none;
-    padding: 10px;
     border-radius: 5px;
     min-width: 20%;
     margin: auto;
